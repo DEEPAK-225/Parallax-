@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+* *::before *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background:linear-gradient(to right, darkblue, pink, yellow, green, orange, purple);
+    color: #fefefe
+}
+h1{
+    background-color: blueviolet;
+    text-align: center;
+}
+.image1{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(photo1.jpg);
+}
+.image2{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(photo2.jpg);
+}
+.image3{
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(photo3.jpg);
+}
